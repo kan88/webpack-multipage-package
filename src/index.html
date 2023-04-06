@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Webpack App</title>
+</head>
+
+<body>
+    <h1 class="titile__index">index page</h1>
+    <%= require ("html-loader!./pages/catalog.html").default %>
+        <h2>Tip ss</h2>
+        <a href="/pages/catalog.html">catalog</a>
+        <img src="<%=require('./images/футер.PNG')%>" width="300" height="300">
+</body>
+
+</html>
